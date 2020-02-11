@@ -11,15 +11,15 @@ const API_KEY = "1b41d6f15e637580fd1e98a9eb3dc363";
 // state carry Key Value Pairs
  class App extends React.Component {
    
-   state = {
-     temperature:undefined,
-     city:undefined,
-     country:undefined,
-     humidity:undefined,
-     description:undefined,
-     error:undefined
+  //  state = {
+  //    temperature:undefined,
+  //    city:undefined,
+  //    country:undefined,
+  //    humidity:undefined,
+  //    description:undefined,
+  //    error:undefined
      
-   }
+  //  }
    getWeather = async(e)=>{
     e.preventDefault();
         //target.elements  for city and its value whatever we type into the input
@@ -33,7 +33,7 @@ const API_KEY = "1b41d6f15e637580fd1e98a9eb3dc363";
    
      // convert API to JSON format
      const data = await api_call.json();
-    //  console.log(data)
+     console.log(data)
      
      // setState is a builtin method
      // to access the data we need data and anything we want to access
