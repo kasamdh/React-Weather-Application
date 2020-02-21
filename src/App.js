@@ -4,7 +4,7 @@ import Titles from "./components/Titles";
 import Form from "./components/Form";
 import Weather from "./components/Weather";
 
-// const API_KEY = "1b41d6f15e637580fd1e98a9eb3dc363";
+const API_KEY = "1b41d6f15e637580fd1e98a9eb3dc363";
 
 
 //state is an object lives within the component and responsible for changing data within the component
