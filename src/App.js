@@ -39,17 +39,17 @@ const API_KEY = "1b41d6f15e637580fd1e98a9eb3dc363";
      // to access the data we need data and anything we want to access
  
     //If both cities and country is true show the value
-    //  if (city && country){
-    //   this.setState({
-    //     //data.main.temp is coming from API console
-    //      temperature:data.main.temp,
-    //      city:data.name,
-    //      country:data.sys.country,
-    //      humidity:data.main.humidity,
-    //      description:data.weather[0].description,
-    //      error:""
+     if (city && country){
+      this.setState({
+        //data.main.temp is coming from API console
+         temperature:data.main.temp,
+         city:data.name,
+         country:data.sys.country,
+         humidity:data.main.humidity,
+         description:data.weather[0].description,
+         error:""
  
-    //   });
+      });
 
 
      }else{
