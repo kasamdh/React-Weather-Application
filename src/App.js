@@ -49,20 +49,20 @@ const API_KEY = "1b41d6f15e637580fd1e98a9eb3dc363";
          description:data.weather[0].description,
          error:""
  
-    //   });
+      });
 
 
-    //  }else{
-    //   this.setState({
-    //     //data.main.temp is coming from API console
-    //      temperature:undefined,
-    //      city:undefined,
-    //      country:undefined,
-    //      humidity:undefined,
-    //      description:undefined,
-    //      error:'Please Enter City and Country Name'
+     }else{
+      this.setState({
+        //data.main.temp is coming from API console
+         temperature:undefined,
+         city:undefined,
+         country:undefined,
+         humidity:undefined,
+         description:undefined,
+         error:'Please Enter City and Country Name'
  
-    //   });
+      });
 
      }
 
