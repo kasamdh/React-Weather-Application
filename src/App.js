@@ -60,7 +60,7 @@ const API_KEY = "1b41d6f15e637580fd1e98a9eb3dc363";
          country:undefined,
          humidity:undefined,
          description:undefined,
-        //  error:'Please Enter City and Country Name'
+         error:'Please Enter City and Country Name'
  
       });
 
