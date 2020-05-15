@@ -47,7 +47,7 @@ const API_KEY = "1b41d6f15e637580fd1e98a9eb3dc363";
          country:data.sys.country,
          humidity:data.main.humidity,
          description:data.weather[0].description,
-        //  error:""
+         error:""
  
       });
 
